@@ -34,7 +34,6 @@ gem 'spring',        group: :development
 
 gem 'tzinfo-data'
 
-gem 'bootstrap-sass'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -43,6 +42,8 @@ gem 'bootstrap-sass'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'devise'
 
 # group :development, :test do
 #   gem 'debugger'

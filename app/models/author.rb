@@ -3,6 +3,6 @@ class Author < ActiveRecord::Base
 	has_many :theses
 
   def full_name
-    "#{firstname} #{lastname}"
+		"#{firstname} #{surname}"
   end
 end
